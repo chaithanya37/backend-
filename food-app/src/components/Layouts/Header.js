@@ -1,4 +1,4 @@
-// src/components/Header.jsx
+
 import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
@@ -9,7 +9,7 @@ import useUserStore from "../../useUserStore";
 const Header = () => {
   const [nav, setNav] = useState(false);
   const user = useUserStore((state) => state.user); 
-  const logoutUser = useUserStore((state) => state.logoutUser); // Assuming logoutUser is defined in your store
+  const logoutUser = useUserStore((state) => state.logoutUser);
   const navigate = useNavigate();
 
   const changeValueOnScroll = () => {
@@ -18,8 +18,8 @@ const Header = () => {
   };
 
   const handleLogout = () => {
-    logoutUser(); // Clear user from state
-    navigate("/login"); // Redirect to login page
+    logoutUser();
+    navigate("/login");
   };
 
   window.addEventListener("scroll", changeValueOnScroll);
