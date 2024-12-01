@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/chaithanya37/backend-.git/static/css/main.3cadfc21.css",
+    "main.js": "/chaithanya37/backend-.git/static/js/main.c89f3689.js",
+    "static/js/787.5dc0e2a0.chunk.js": "/chaithanya37/backend-.git/static/js/787.5dc0e2a0.chunk.js",
+    "static/media/hero-2.png": "/chaithanya37/backend-.git/static/media/hero-2.12b0d8ea4fb63911c1fe.png",
+    "static/media/bg.jpg": "/chaithanya37/backend-.git/static/media/bg.ac5237841ce77dfce589.jpg",
+    "static/media/pro.png": "/chaithanya37/backend-.git/static/media/pro.7acdf5787a94fd87f3c6.png",
+    "static/media/reviews.jpg": "/chaithanya37/backend-.git/static/media/reviews.f108bb20e900476607cd.jpg",
+    "static/media/bootstrap-icons.woff?": "/chaithanya37/backend-.git/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/chaithanya37/backend-.git/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/e-shop.png": "/chaithanya37/backend-.git/static/media/e-shop.dac6ba5fdcaa0e881a5e.png",
+    "static/media/hero-1.jpg": "/chaithanya37/backend-.git/static/media/hero-1.c176491a87d1cc685bd3.jpg",
+    "static/media/about-1.jpg": "/chaithanya37/backend-.git/static/media/about-1.6a11f18669cd4e578689.jpg",
+    "static/media/ads-2.jpg": "/chaithanya37/backend-.git/static/media/ads-2.5c050973b06f89054286.jpg",
+    "static/media/logo.png": "/chaithanya37/backend-.git/static/media/logo.115c7cdc5df109ada30f.png",
+    "static/media/ads-1.jpg": "/chaithanya37/backend-.git/static/media/ads-1.e3f5d9bc93edae9a6a7e.jpg",
+    "static/media/review-author-1.jpg": "/chaithanya37/backend-.git/static/media/review-author-1.c9fbfaaec6753d1a49c7.jpg",
+    "static/media/review-author-3.jpg": "/chaithanya37/backend-.git/static/media/review-author-3.26b26869dff97a0ebfe5.jpg",
+    "static/media/pizza.png": "/chaithanya37/backend-.git/static/media/pizza.7758b9dc4f032645391f.png",
+    "static/media/review-author-2.jpg": "/chaithanya37/backend-.git/static/media/review-author-2.8e545a136982aef12552.jpg",
+    "static/media/banner-1.jpg": "/chaithanya37/backend-.git/static/media/banner-1.fa41087ca7df9695611e.jpg",
+    "static/media/review-author-5.jpg": "/chaithanya37/backend-.git/static/media/review-author-5.1d8dc28ff3b643d917c1.jpg",
+    "static/media/brand-17.png": "/chaithanya37/backend-.git/static/media/brand-17.c27fb50af314cacdbd69.png",
+    "static/media/salad.png": "/chaithanya37/backend-.git/static/media/salad.168b7c6816a63856002c.png",
+    "static/media/delivery-bike.png": "/chaithanya37/backend-.git/static/media/delivery-bike.dccfe10cedb865f67bde.png",
+    "static/media/brand-18.png": "/chaithanya37/backend-.git/static/media/brand-18.4cef037539afb5faa525.png",
+    "static/media/brand-15.png": "/chaithanya37/backend-.git/static/media/brand-15.aca9a73f96179d3495e4.png",
+    "static/media/brand-16.png": "/chaithanya37/backend-.git/static/media/brand-16.39e872b117651240bc57.png",
+    "index.html": "/chaithanya37/backend-.git/index.html",
+    "main.3cadfc21.css.map": "/chaithanya37/backend-.git/static/css/main.3cadfc21.css.map",
+    "main.c89f3689.js.map": "/chaithanya37/backend-.git/static/js/main.c89f3689.js.map",
+    "787.5dc0e2a0.chunk.js.map": "/chaithanya37/backend-.git/static/js/787.5dc0e2a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cadfc21.css",
+    "static/js/main.c89f3689.js"
+  ]
+}
