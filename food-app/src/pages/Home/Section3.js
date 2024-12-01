@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Cards from "../../components/Layouts/Cards";
 import { Link } from "react-router-dom";
-import useUserStore from "../../useUserStore"; // Import Zustand store
+import useUserStore from "../../useUserStore";
 
 const Section3 = () => {
   const [foodData, setfoodData] = useState([]);
-  const user = useUserStore((state) => state.user); // Access user data from Zustand
+  const user = useUserStore((state) => state.user);
   console.log("in section check",user);
 
   useEffect(() => {
