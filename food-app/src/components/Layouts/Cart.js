@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "./Cart.css"; // Add styles for the cart
+import "./Cart.css";
 import useUserStore from "../../useUserStore";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
-  const user = useUserStore((state) => state.user); // Get the logged-in user from the store
+  const user = useUserStore((state) => state.user); 
   console.log("User object in Cart component:", user);
 
   useEffect(() => {
@@ -13,23 +13,21 @@ const Cart = () => {
       return;
     }
 
-    // Fetch cart items for the logged-in user
     fetch(`http://localhost:5000/api/cart/${user.id}`)
       .then((response) => {
-        console.log("Fetch response:", response); // Logs raw response
+        console.log("Fetch response:", response);
         if (!response.ok) {
           throw new Error("Failed to fetch cart items");
         }
         return response.json();
       })
       .then((data) => {
-        console.log("Cart items data:", data); // Logs parsed data
+        console.log("Cart items data:", data); 
         setCartItems(data);
       })
       .catch((error) => console.error("Error fetching cart items:", error));
   }, [user]);
 
-  // Handle removing an item from the cart
   const handleRemove = (itemId) => {
     fetch(`http://localhost:5000/api/cart/${user.id}/${itemId}`, {
       method: "DELETE",
