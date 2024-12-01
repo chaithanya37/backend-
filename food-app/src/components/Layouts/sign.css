@@ -1,4 +1,4 @@
-/* Sign-in Page Container */
+
 .signin-container {
     display: flex;
     justify-content: center;
@@ -7,7 +7,6 @@
     background-color: #f4f4f9;
   }
   
-  /* Sign-in Card */
   .signin-card {
     width: 100%;
     max-width: 400px;
@@ -18,7 +17,6 @@
     box-sizing: border-box;
   }
   
-  /* Header Section */
   .signin-header {
     text-align: center;
     margin-bottom: 20px;
@@ -35,7 +33,6 @@
     color: #666;
   }
   
-  /* Form Fields */
   .form-group {
     margin-bottom: 15px;
   }
@@ -62,7 +59,6 @@
     outline: none;
   }
   
-  /* Submit Button */
   .signin-button {
     width: 100%;
     padding: 10px;
